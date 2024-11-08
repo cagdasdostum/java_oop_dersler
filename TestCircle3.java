@@ -50,13 +50,10 @@
          }
      }
  }
-<<<<<<< HEAD
- class Circle3 {
-=======
+
 
 
 class Circle3 {
->>>>>>> 2c4888d7a07a749e103ae59eb4ab2d8c326870af
     private double radius;
     private static int numberOfObjects = 0;
 
@@ -86,7 +83,4 @@ class Circle3 {
         return numberOfObjects;
     }
 }
-<<<<<<< HEAD
  
-=======
->>>>>>> 2c4888d7a07a749e103ae59eb4ab2d8c326870af
