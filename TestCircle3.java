@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
- package com.mycompany.testcircle3;
+ //package com.mycompany.testcircle3;
 
- import com.mycompany.totalarea.Circle3;
+ //import com.mycompany.totalarea.Circle3;
  
  /**
   *
@@ -50,4 +50,34 @@
          }
      }
  }
+ class Circle3 {
+    private double radius;
+    private static int numberOfObjects = 0;
+
+    public Circle3() {
+        radius = 1;
+        numberOfObjects++;
+    }
+
+    public Circle3(double newRadius) {
+        radius = newRadius;
+        numberOfObjects++;
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setRadius(double newRadius) {
+        radius = newRadius;
+    }
+
+    public double getArea() {
+        return Math.PI * radius * radius;
+    }
+
+    public static int getNumberOfObjects() {
+        return numberOfObjects;
+    }
+}
  
