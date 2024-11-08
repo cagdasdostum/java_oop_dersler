@@ -1,4 +1,4 @@
-
+//eyvallaaahh
 //package com.mycompany.javaapplication1;
 
 public class Uygulama3 {
